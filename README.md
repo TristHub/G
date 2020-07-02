@@ -1,27 +1,17 @@
-# Timetable Extractor for VU Rooster
+# G - A Quick Search Engine
 
-This bookmarklet allows you to extract the course schedule information from VU Amsterdam's legacy Rooster web app and export them in iCal format, appropriate for importing in ordinary calendar applications.
-
-Please note that the code is under _beta test_, so use it at your risk.
-
-Also note that due to a deficiency in the way [RFC 5545](https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/) and [RFC 7986](https://icalendar.org/RFC-Specifications/New-Properties-for-iCalendar-RFC-7986/) have been implemented in Microsoft Outlook, the current solution won't work properly on that platform. Subsequent developments will fix this issue.
+G is a bookmarklet that lets you open google in a small tab for when you want to make a quick search without leaving the current tab/window your in.
 
 ## Installation
-- Drag the following link into your bookmark bar: [VU🐓](javascript:(function(){window.open('https://cse.google.com/cse?cx=010130602152858211278:4uapaojstyy',%20"_blank",%20"width=500,height=250")})();)())
+- Drag the following link into your bookmark bar: [☁ G](javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','https://bookmarkify.it/bookmarklets/37133/raw');document.getElementsByTagName('body')[0].appendChild(window.s0);})();)
 
 ## Usage
-- Go to [VU Rooster website](https://rooster.vu.nl/sws17181en) and find the schedule you would like to import
-- Click the `VU🐓` bookmarklet in your bookmark bar
+- Click the `☁ G` bookmarklet in your bookmark bar
+- Search!
 
 ## Development
-- Do not hesitate to [fork and improve](https://github.com/retrography/vurooster)
-- Report bugs [here](https://github.com/retrography/vurooster/issues)
+- Do not hesitate to [fork and improve](https://github.com/TristHub/G)
+- Report bugs [here](https://github.com/TristHub/G/issues)
 
 ## Credits
-- This work is inspired by [the great work of Anne Jon Schoonhoven](https://vurooster.nl/)
-- The main idea of this bookmarklet came from [Georgios Andreadis](https://github.com/gandreadis/vu-timetable)
-
-## Legal
-- [MIT](https://spdx.org/licenses/MIT)-licensed
-
-&copy; 2017 Mahmood S. Zargar  
+- This work is inspired by [the Google Browser, made by Larry Page, and others](https://google.com/)
